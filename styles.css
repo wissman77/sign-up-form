@@ -1,5 +1,10 @@
 /* General styles */
 
+:root {
+  --btn-bg-color: #596D48;
+  --btn-bg-alt-color: #637c4d;
+}
+
 @font-face {
   font-family: "norse-bold";
   src: url("./fonts/Norse-Bold.otf");
@@ -19,6 +24,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  line-height: 1.5;
 }
 
 /* Side header styles */
@@ -63,3 +69,61 @@
 
 /* Form styles */
 
+.form-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F9FAFB;
+}
+
+.form-heading {
+  padding-left: 50px;
+  padding-right: 250px;
+}
+
+.form-heading p ,
+.form-heading em{
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.form-heading > p {
+  margin-top: 30px;
+}
+
+.form-body {
+  width: 100%;
+}
+
+.form-controls-panel {
+ background: #fff; 
+  width: 100%;
+  padding-left: 50px;
+}
+
+button, .have-account {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+button {
+  background: var(--btn-bg-color);
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+button:hover {
+  background: var(--btn-bg-alt-color);
+  cursor: pointer;
+}
+
+.have-account a {
+  color: var(--btn-bg-color);
+  text-decoration: none;
+  font-weight: bold;
+}
