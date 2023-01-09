@@ -12,7 +12,7 @@
       <div class="side-header">
         <div class="log">
           <img src="./img/odin-lined.png" alt="Odin logo" />
-          <h1 style="background: #ccc">odin</h1>
+          <h1>odin</h1>
         </div>
         <div class="creator-footer">
           <p>
@@ -25,6 +25,77 @@
               >Unsplash</a
             >
           </p>
+        </div>
+      </div>
+      <div class="form-container">
+        <div class="form-heading">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.<br />
+            Sign up <em>now</em> to get started
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-body">
+          <p>Let's do this!</p>
+          <form action="/" method="post">
+            <div class="form-controls-panel">
+              <div class="form-control">
+                <label for="firstname">first name</label>
+                <input type="text" name="firstname" id="firstname" required />
+              </div>
+              <div class="form-control">
+                <label for="lastname">last name</label>
+                <input type="text" name="lastname" id="lastname" required />
+              </div>
+              <div class="form-control">
+                <label for="email">email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  pattern=""
+                />
+              </div>
+              <div class="form-control">
+                <label for="phonenumber">phone number</label>
+                <input
+                  type="text"
+                  name="phonenumber"
+                  id="phonenumber"
+                  required
+                  pattern=""
+                />
+              </div>
+              <div class="form-control">
+                <label for="password">password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  required
+                  minlength="6"
+                  maxlength="20"
+                />
+              </div>
+              <div class="form-control">
+                <label for="confirmpassword">confirm password</label>
+                <input
+                  type="password"
+                  name="confirmpassword"
+                  id="confirmpassword"
+                  required
+                  minlength="6"
+                  maxlength="20"
+                />
+              </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <div class="have-account">
+              <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+          </form>
         </div>
       </div>
     </div>
