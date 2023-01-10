@@ -184,3 +184,35 @@ span.error {
   font-size: 0.7rem;
   color: red;
 }
+
+/* Media query for small screens */
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+  .side-header {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .form-container {
+    width: 100vw;
+  }
+
+  .form-heading {
+    width: 100vw;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    padding-right: 30px;
+  }
+
+  .form-heading p {
+    width: 100%;
+  }
+}
