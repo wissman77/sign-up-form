@@ -175,3 +175,12 @@ button:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
+input.error {
+  border: 1px solid red;  
+}
+
+span.error {
+  font-size: 0.7rem;
+  color: red;
+}
