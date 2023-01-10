@@ -32,63 +32,67 @@
           <p>
             This is not a real online service! You know you need something like
             this in your life to help you realize your deepest dreams.<br />
-            Sign up <em>now</em> to get started
+            Sign up <em>now</em> to get started.
           </p>
           <p>You <em>know</em> you want to.</p>
         </div>
         <div class="form-body">
-          <p>Let's do this!</p>
           <form action="/" method="post">
             <div class="form-controls-panel">
-              <div class="form-control">
-                <label for="firstname">first name</label>
-                <input type="text" name="firstname" id="firstname" required />
-              </div>
-              <div class="form-control">
-                <label for="lastname">last name</label>
-                <input type="text" name="lastname" id="lastname" required />
-              </div>
-              <div class="form-control">
-                <label for="email">email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  required
-                  pattern="[a-zA-Z0-9\\_\\-\\.]+)@([a-zA-Z]+).(.+)"
-                />
-              </div>
-              <div class="form-control">
-                <label for="phonenumber">phone number</label>
-                <input
-                  type="text"
-                  name="phonenumber"
-                  id="phonenumber"
-                  required
-                  pattern="\d{3}-?\d{3}-?\d{4}"
-                />
-              </div>
-              <div class="form-control">
-                <label for="password">password</label>
-                <input
-                  type="password"
-                  name="password"
-                  id="password"
-                  required
-                  minlength="6"
-                  maxlength="20"
-                />
-              </div>
-              <div class="form-control">
-                <label for="confirmpassword">confirm password</label>
-                <input
-                  type="password"
-                  name="confirmpassword"
-                  id="confirmpassword"
-                  required
-                  minlength="6"
-                  maxlength="20"
-                />
+              <p>Let's do this!</p>
+              <div class="control-groups">
+                <div class="form-control">
+                  <label for="firstname">first name</label>
+                  <input type="text" name="firstname" id="firstname" required />
+                </div>
+                <div class="form-control">
+                  <label for="lastname">last name</label>
+                  <input type="text" name="lastname" id="lastname" required />
+                </div>
+                <div class="form-control">
+                  <label for="email">email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    pattern="[a-zA-Z0-9\\_\\-\\.]+)@([a-zA-Z]+).(.+)"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="phonenumber">phone number</label>
+                  <input
+                    type="text"
+                    name="phonenumber"
+                    id="phonenumber"
+                    required
+                    pattern="\d{3}-?\d{3}-?\d{4}"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="password">password</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                    minlength="6"
+                    maxlength="20"
+                    class="error"
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="confirmpassword">confirm password</label>
+                  <input
+                    type="password"
+                    name="confirmpassword"
+                    id="confirmpassword"
+                    required
+                    minlength="6"
+                    maxlength="20"
+                    class="error"
+                  />
+                </div>
               </div>
             </div>
             <button type="submit">Create Account</button>
