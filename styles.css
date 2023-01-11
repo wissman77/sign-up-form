@@ -52,10 +52,6 @@
   color: #fff;
 }
 
-.creator-footer p,
-.creator-footer a  {
-  font-size: .8rem;
-}
 
 .logo {
   display: flex;
@@ -71,6 +67,10 @@
   margin-bottom: 3vh;
 }
 
+.creator-footer p,
+.creator-footer a  {
+  font-size: .8rem;
+}
 
 
 /* Form styles */
@@ -85,8 +85,9 @@
 }
 
 .form-heading {
+  max-width: 700px;
   padding-left: 50px;
-  padding-right: 250px;
+  /* padding-right: 250px; */
 }
 
 .form-heading p ,
@@ -158,6 +159,10 @@ input:user-invalid {
 button, .have-account {
   margin-left: 50px;
   margin-top: 30px;
+}
+
+.have-account {
+  margin-bottom: 10px;
 }
 
 button {
