@@ -20,7 +20,7 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;  
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -81,7 +81,6 @@
 .form-heading {
   padding-left: 50px;
   padding-right: 250px;
-  margin-top: -60px;
 }
 
 .form-heading p ,
